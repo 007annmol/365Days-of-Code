@@ -1,8 +1,8 @@
-f=open("num.txt","r")
-g=open("duplicate.txt","w")
-for i in range(1,100):
-    n=f.readline()
-    m=f.read()
-    for i in m:
-        if(i==m):
-            p
+d={}
+d['a','b','c','d']="apple","ball","car","dog"
+print(d)
+g={}
+g[1]="ONE"
+g[2]="TWO"
+g[3]="TREE"
+print(g)
