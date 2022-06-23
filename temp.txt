@@ -1,9 +1,3 @@
-n=str(input("Enter a binary value:"))
-l= len(n)
-sum=0
-for i in n:
-    if(i=="1"):
-        sum=pow(2,len)+sum
-        len=len-1
+import turtle as t
 
-print("Decimal:",sum)
+t.bgcol
